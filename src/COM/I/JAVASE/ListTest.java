@@ -114,18 +114,34 @@ public class ListTest {
      * @param args
      */
     public void testRemove(){
-        Course cr = coursesToSelect.get(4);
+        Course cr = (Course) coursesToSelect.get(4);
         System.out.println("我是课程"+cr.id+":"+cr.name+",删除中。。。");
-
+        Course[] course = {(Course)coursesToSelect.get(4),(Course)coursesToSelect.get(5)};
+        coursesToSelect.removeAll(Arrays.asList(course));
+        coursesToSelect.remove(cr);
+        System.out.println("成功删除课程！");
+        testForEach();
     }
+
+//    /**
+//     * 往list添加一些奇怪的东西
+//     * @param args
+//     */
+//    public void testType(){
+//        System.out.println("能否往list添加奇怪东西呢");
+//        coursesToSelect.add("非课程，其它字符串！");
+//    }
 
     public static void main(String[] args) {
         ListTest lt = new ListTest();
         lt.testAdd();
+//        lt.testType();
+//        lt.testForEach();
         lt.testGet();
         lt.tesyIterator();
         lt.testForEach();
         lt.testModify();
         lt.testForEach();
+        lt.testRemove();
     }
 }
