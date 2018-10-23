@@ -36,9 +36,34 @@ public class TestGeneric {
         }
     }
 
+    /**
+     * 泛形集合可以添加泛型的子类型的对象实例
+     * @param args
+     */
+    public  void testChild(){
+        ChildCourse ccr = new ChildCourse();
+        ccr.id = "3";
+        ccr.name = "子类型的课程对象实例";
+        courses.add(ccr);
+    }
+
+    /**
+     * 泛形不能使用基本类型
+     * @param args
+     */
+    public void  testBasicType(){
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        System.out.println("基本类型必须使用包装类作为泛型!:"+list.get(0));
+
+    }
+
     public static void main(String[] args) {
         TestGeneric tg = new TestGeneric();
         tg.testAdd();
         tg.testForEach();
+        tg.testChild();
+        tg.testForEach();
+        tg.testBasicType();
     }
 }
