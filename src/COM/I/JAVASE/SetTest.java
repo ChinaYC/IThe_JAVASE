@@ -98,6 +98,11 @@ public class SetTest {
         //(没重写equals前)虽然拥有相通的名称和ID但是不在列表里面，所以不包含，返回false
         System.out.println("备选课程是否包含"+course2.name+"，"+coursesToSelect.contains(course2));
 
+        //通过indexOf位置来取得某元素的索引位置
+        if(course){
+
+        }
+
     }
 
     //创建学生对象并选课
