@@ -99,8 +99,8 @@ public class SetTest {
         System.out.println("备选课程是否包含"+course2.name+"，"+coursesToSelect.contains(course2));
 
         //通过indexOf位置来取得某元素的索引位置
-        if(course){
-
+        if(coursesToSelect.contains((course2))){
+            System.out.println("课程:"+course2.name+"索引位置位:"+coursesToSelect.indexOf(course2));
         }
 
     }

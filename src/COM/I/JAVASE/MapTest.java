@@ -29,7 +29,7 @@ public class MapTest {
 
     /**
      * 测试添加:输入学生ID，判断是否被占用
-     * 若魏碑占用,则输入姓名，创建新学生对象，
+     * 若未被占用,则输入姓名，创建新学生对象，
      * 并且添加到students中
      * @param args
      */
@@ -134,7 +134,7 @@ public class MapTest {
 
             //从students中查找是否有相应的映射(该学生ID对应的学生对象)
             Student student = students.get(stuID);
-            if (stuID == null){
+            if (student == null){
                 System.out.println("该ID不存在");
                 continue;
             }
@@ -154,13 +154,39 @@ public class MapTest {
         }
     }
 
+    /**
+     * 测试Map中,是否包含某个key值或者某个value值
+     * @param args
+     */
+    public void testContainsKeyOrValue(){
+        System.out.println("请输入要查询的学生ID");
+        Scanner console = new Scanner(System.in);
+        String id = console.next();
+
+        //在Map中,用containsKey()方法，来判断是否包含某个Key值
+        System.out.println("您输入的学生ID为"+id+"，在学生映射表中是否存在:"+students.containsKey(id));
+        if (students.containsKey(id)){
+            System.out.println("对应的学生为:"+students.get(id).name);
+        }
+        System.out.println("请输入要查询的学生姓名");
+        String name = console.next();
+        //用containsValue()方法，来判断是否包含某个value值
+        if (students.containsValue(new Student(null,name))){
+            System.out.println("在学生映射表中确实包含学生:"+name);
+        }else {
+            System.out.println("查询无该学生");
+        }
+
+    }
+
     public static void main(String[] args) {
         MapTest mp = new MapTest();
         mp.testPut();
         mp.testKeySet();
-        mp.testRemove();
-        mp.testEntrySet();
-        mp.testModify();
-        mp.testEntrySet();
+//        mp.testRemove();
+//        mp.testEntrySet();
+//        mp.testModify();
+//        mp.testEntrySet();
+        mp.testContainsKeyOrValue();
     }
 }
