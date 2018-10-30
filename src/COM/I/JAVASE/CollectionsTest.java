@@ -66,9 +66,26 @@ public class CollectionsTest {
             System.out.println("元素"+st);
     }
 
+
+    /**
+     * 3.对其他类型泛型的List进行排序，以Student为例
+     */
+    public void testSort3(){
+        List<Student> studentList = new ArrayList<Student>();
+        studentList.add(new Student(1+"","小明"));
+        studentList.add(new Student(2+"","小红"));
+        studentList.add(new Student(3+"","小兰"));
+        System.out.println("---------------排序前------------------");
+        for (Student st:studentList){
+            System.out.println(" 学生:"+st.name);
+        }
+        Collections.sort(studentList);
+
+    }
+
     public static void main(String[] args) {
         CollectionsTest ct = new CollectionsTest();
-        ct.testSort1();
-        ct.testSort2();
+//        ct.testSort1();
+//        ct.testSort2();
     }
 }
