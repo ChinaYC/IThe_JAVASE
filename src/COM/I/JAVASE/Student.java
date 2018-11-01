@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 学生类
  */
-public class Student {
+public class Student implements Comparable<Student>{
     public String id;
     public String name;
 
@@ -34,4 +34,8 @@ public class Student {
     }
 
 
+    @Override
+    public int compareTo(Student o) {
+        return this.id.compareTo(o.id);
+    }
 }

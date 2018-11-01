@@ -1,5 +1,6 @@
 package COM.I.JAVASE;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -72,20 +73,26 @@ public class CollectionsTest {
      */
     public void testSort3(){
         List<Student> studentList = new ArrayList<Student>();
-        studentList.add(new Student(1+"","小明"));
-        studentList.add(new Student(2+"","小红"));
-        studentList.add(new Student(3+"","小兰"));
+        Random random = new Random();
+        //测试用，不判断随机id是否重复，故写1000内随机，大一点避免重复
+        studentList.add(new Student(random.nextInt(1000)+"","Mike"));
+        studentList.add(new Student(random.nextInt(1000)+"","Angela"));
+        studentList.add(new Student(random.nextInt(1000)+"","Lucy"));
         System.out.println("---------------排序前------------------");
         for (Student st:studentList){
-            System.out.println(" 学生:"+st.name);
+            System.out.println(" 学生:"+st.id+":"+st.name);
         }
         Collections.sort(studentList);
-
+        System.out.println("---------------排序后------------------\"");
+        for(Student student:studentList){
+            System.out.println("学生"+student.id+":"+student.name);
+        }
     }
 
     public static void main(String[] args) {
         CollectionsTest ct = new CollectionsTest();
 //        ct.testSort1();
 //        ct.testSort2();
+        ct.testSort3();
     }
 }
