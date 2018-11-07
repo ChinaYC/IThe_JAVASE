@@ -78,14 +78,20 @@ public class CollectionsTest {
         studentList.add(new Student(random.nextInt(1000)+"","Mike"));
         studentList.add(new Student(random.nextInt(1000)+"","Angela"));
         studentList.add(new Student(random.nextInt(1000)+"","Lucy"));
+        studentList.add(new Student(10000+"","Beyonce"));
         System.out.println("---------------排序前------------------");
         for (Student st:studentList){
             System.out.println(" 学生:"+st.id+":"+st.name);
         }
         Collections.sort(studentList);
-        System.out.println("---------------排序后------------------\"");
+        System.out.println("---------------排序后------------------");
         for(Student student:studentList){
             System.out.println("学生"+student.id+":"+student.name);
+        }
+        Collections.sort(studentList,new StudentComparator());
+        System.out.println("---------------按照姓名排序后-----------------");
+        for (Student st:studentList){
+            System.out.println("学生"+st.id+":"+st.name);
         }
     }
 

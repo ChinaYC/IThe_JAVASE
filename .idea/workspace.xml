@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6163287-b1a1-4496-83e7-972659f1255f" name="Default Changelist" comment="2018.10.16 反射的学习">
+    <list default="true" id="d6163287-b1a1-4496-83e7-972659f1255f" name="Default Changelist" comment="List的增删改查">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/COM/LEEDCODE/TwoNumsAdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/SetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/SetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/ArryMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/ArryMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/CollectionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/CollectionsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/TestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/TestGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/ChildCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/ChildCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/TestGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/StudentComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IThe_JAVASE/COM/I/JAVASE/StudentComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/COM/I/JAVASE/StudentComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COM/I/JAVASE/StudentComparator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,54 +19,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2100187034">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="5" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="LEETCODE-CN" value="1" />
+          <entry key="LeetCode-cn" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="12" />
+          <entry key="java" value="32" />
+          <entry key="kt" value="1" />
           <entry key="vmoptions" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="33" />
+          <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4869" />
-          <entry key="txt" value="16" />
+          <entry key="java" value="10762" />
+          <entry key="txt" value="55" />
           <entry key="vmoptions" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4869" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="JAVA" value="10762" />
+          <entry key="PLAIN_TEXT" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,19 +99,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Comparable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ClassDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="1368">
+              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -99,17 +110,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="95">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java">
+        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+            <state relative-caret-position="208">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/MapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,25 +160,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/COM/LEEDCODE/TwoNumsAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="347">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-768">
-              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;field#coursesToSelect#0;class#ListTest#0" />
               </folding>
             </state>
           </provider>
@@ -147,11 +176,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +196,7 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -184,6 +209,7 @@
       <find>courses</find>
       <find>testF</find>
       <find>//创建一个课程对象，并通过调用add方法添加到备选课程List中         Course cr1 = new Course(&quot;1&quot;, &quot;数据结构&quot;);         coursesToSelect.add(cr1);         Course temp = (Course) coursesToSelect.get(0);         System.out.println(&quot;添加了课程：&quot; + temp.id + &quot;:&quot; + temp.name);          Course cr2 = new Course(&quot;2&quot;,&quot;C语言&quot;);         coursesToSelect.add(0,cr2);         Course temp2 = (Course) coursesToSelect.get(0);         System.out.println(&quot;添加了课程：&quot; + temp2.id + &quot;:&quot; + temp2.name);          System.out.println(&quot;添加了课程：&quot; + temp.id + &quot;:&quot; + temp.name);          coursesToSelect.add(cr1);         Course temp0 = (Course) coursesToSelect.get(2);         System.out.println(&quot;添加了课程：&quot; + temp.id + &quot;:&quot; + temp.name);  //        Course cr3 = new Course(&quot;3&quot;,&quot;test&quot;); //        coursesToSelect.add(3,cr3); //        添加两门课程 //        数组添加用 addAll(Arrays.asList());         Course[] course = {new Course(&quot;3&quot;,&quot;离散数学&quot;),new Course(&quot;4&quot;,&quot;汇编语言&quot;)};         coursesToSelect.addAll(Arrays.asList(course));         Course temp3 = (Course) coursesToSelect.get(3);         Course temp4 = (Course) coursesToSelect.get(4);         System.out.println(temp3.id+temp3.name+temp4.id+temp4.name);          Course[] course2 = {new Course(&quot;5&quot;,&quot;离散数学&quot;),new Course(&quot;6&quot;,&quot;大英&quot;)};         coursesToSelect.addAll(2,Arrays.asList(course2));         Course temp5 = (Course) coursesToSelect.get(2);         Course temp6 = (Course) coursesToSelect.get(3);         System.out.println(temp5.id+temp5.name+temp6.id+temp6.name);</find>
+      <find>scan</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -201,12 +227,17 @@
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/HELLOTest.java" />
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/ClassDemo1.java" />
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java" />
-        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/Course.java" />
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/ChildCourse.java" />
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/TestGeneric.java" />
-        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/Student.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.kt" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/Course.java" />
         <option value="$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/Student.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/StudentComparator.java" />
+        <option value="$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java" />
+        <option value="$PROJECT_DIR$/src/COM/LEEDCODE/TwoNumsAdd.java" />
       </list>
     </option>
   </component>
@@ -216,11 +247,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="130" />
-    <option name="width" value="967" />
-    <option name="height" value="968" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="609" />
+    <option name="y" value="227" />
+    <option name="width" value="1080" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -244,8 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,18 +291,28 @@
               <item name="IThe_JAVASE" type="b2602c69:ProjectViewProjectNode" />
               <item name="IThe_JAVASE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JAVASE" type="462c0819:PsiDirectoryNode" />
+              <item name="COM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IThe_JAVASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IThe_JAVASE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="COM" type="462c0819:PsiDirectoryNode" />
+              <item name="LEEDCODE" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540287798025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541583172769" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -281,7 +320,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -303,9 +342,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetTest">
-    <configuration name="ClassDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="COM.I.JAVASE.ClassDemo1" />
+  <component name="RunManager" selected="Application.TwoNumsAdd">
+    <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="COM.I.JAVASE.CollectionsTest" />
       <module name="IThe_JAVASE" />
       <extension name="coverage">
         <pattern>
@@ -317,21 +356,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HELLO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="COM.I.JAVASE.HELLO" />
-      <module name="IThe_JAVASE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="COM.I.JAVASE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="COM.I.JAVASE.ListTest" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="COM.I.JAVASE.MapTest" />
       <module name="IThe_JAVASE" />
       <extension name="coverage">
         <pattern>
@@ -369,20 +395,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoNumsAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="COM.LEEDCODE.TwoNumsAdd" />
+      <module name="IThe_JAVASE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="COM.LEEDCODE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.HELLO" />
-      <item itemvalue="Application.ClassDemo1" />
-      <item itemvalue="Application.ListTest" />
       <item itemvalue="Application.TestGeneric" />
       <item itemvalue="Application.SetTest" />
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.CollectionsTest" />
+      <item itemvalue="Application.TwoNumsAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoNumsAdd" />
+        <item itemvalue="Application.CollectionsTest" />
+        <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.TestGeneric" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.ClassDemo1" />
-        <item itemvalue="Application.HELLO" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +449,23 @@
       <workItem from="1540020023204" duration="5598000" />
       <workItem from="1540173463467" duration="5806000" />
       <workItem from="1540262214160" duration="801000" />
-      <workItem from="1540281646043" duration="6266000" />
+      <workItem from="1540281646043" duration="6780000" />
+      <workItem from="1540348340318" duration="3789000" />
+      <workItem from="1540368182881" duration="6670000" />
+      <workItem from="1540377143034" duration="117000" />
+      <workItem from="1540433189871" duration="4201000" />
+      <workItem from="1540437990708" duration="9676000" />
+      <workItem from="1540521300316" duration="612000" />
+      <workItem from="1540534524368" duration="258000" />
+      <workItem from="1540621151728" duration="377000" />
+      <workItem from="1540623349914" duration="4727000" />
+      <workItem from="1540797205318" duration="5846000" />
+      <workItem from="1540868286632" duration="1060000" />
+      <workItem from="1540890112028" duration="1946000" />
+      <workItem from="1541068012307" duration="860000" />
+      <workItem from="1541126350218" duration="4096000" />
+      <workItem from="1541562308173" duration="584000" />
+      <workItem from="1541572635900" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="2018.10.16 反射的学习">
       <created>1539651020443</created>
@@ -419,17 +474,33 @@
       <option name="project" value="LOCAL" />
       <updated>1539651020444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="set的增删改查">
+      <created>1540436940560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540436940561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63771000" />
+    <option name="totallyTimeSpent" value="115084000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="130" width="967" height="968" extended-state="0" />
+    <frame x="609" y="227" width="1080" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31973538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27156863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,16 +510,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27407408" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39753085" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37340876" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33097595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32886723" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32356858" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32107496" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,7 +527,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32976446" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
@@ -468,26 +539,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018.10.16 反射的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018.10.16 反射的学习" />
+    <MESSAGE value="set的增删改查" />
+    <MESSAGE value="map的增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="map的增删改查" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java</url>
-          <line>34</line>
+          <line>32</line>
           <properties class="COM.I.JAVASE.HELLO">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/COM/I/JAVASE/MapTest.java</url>
+          <line>183</line>
+          <properties class="COM.I.JAVASE.MapTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java</url>
-          <line>69</line>
+          <line>153</line>
           <properties class="COM.I.JAVASE.SetTest" method="main">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java</url>
+          <line>97</line>
+          <properties class="COM.I.JAVASE.CollectionsTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java</url>
@@ -496,6 +585,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -508,40 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ClassDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/TestGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ChildCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/IndexOutOfBoundsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-          <folding>
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,45 +614,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        <state relative-caret-position="-54373">
+          <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ClassDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml.ws/com/sun/org/glassfish/gmbal/AMXClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="2937" column="41" selection-start-line="2937" selection-start-column="41" selection-end-line="2937" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;field#coursesToSelect#0;class#ListTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ArryMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/StudentComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/src/121.kt" />
+    <entry file="file://$PROJECT_DIR$/src/COM.LEETCODE-CN" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/TestGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ChildCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/CollectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/HELLO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="208">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="355">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/SetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/COM/LEEDCODE/TwoNumsAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/COM/I/JAVASE/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="347">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
