@@ -13,5 +13,7 @@ public class LongestSubstring {
             res = Math.max(res, i - left);
         }
         return res;
+
+        //暴力法
     }
 }
