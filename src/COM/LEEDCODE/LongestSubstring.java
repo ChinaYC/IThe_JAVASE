@@ -10,7 +10,7 @@ public class LongestSubstring {
         for (int i = 0; i < s.length(); ++i) {
             left = Math.max(left, m[s.charAt(i)]);
             m[s.charAt(i)] = i;
-            res = Math.max(res, i - left);
+            res = Math.max(res, i - left1);
         }
         return res;
 
